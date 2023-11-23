@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], button {
+    width: 48%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Asegura que padding no afecte el ancho total */
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e7e7e7;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+ul li:nth-child(odd) {
+    background: #d7d7d7;
+}

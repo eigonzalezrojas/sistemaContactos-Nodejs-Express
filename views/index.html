@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Contactos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contactos</h1>
+    </div>
+    <!-- Formulario para Crear un Nuevo Contacto -->
+    <form id="crear-contacto-form">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="email" placeholder="Email">
+        <input type="text" id="telefono" placeholder="Teléfono">
+        <button type="submit">Crear Contacto</button>
+    </form>
+    <!-- Formulario para Editar un Contacto -->
+    <form id="editar-contacto-form" style="display: none;">
+        <input type="hidden" id="editar-id">
+        <input type="text" id="editar-nombre" placeholder="Nombre">
+        <input type="text" id="editar-email" placeholder="Email">
+        <input type="text" id="editar-telefono" placeholder="Teléfono">
+        <button type="submit">Actualizar Contacto</button>
+    </form>
+    <!-- Contenedor para Listar los Contactos -->
+    <div id="lista-contactos">
+        <!-- Los contactos se insertarán aquí dinámicamente -->
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
